@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(153, 216, 216);
+}
+.parent {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 100dvh;
+}
+/* .parent > * {
+    border-radius: 15%;
+    width: 25rem;
+    height: 25rem;
+} */
+
+.con > img {
+    border-radius: 15%;
+    width: 25rem;
+    height: 25rem;
+}
+
+  @media (max-width: 850px){
+    .parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        align-items: center;
+        height: 100dvh;
+    }
+    .parent > img {
+        border-radius: 15%;
+        width: 15rem;
+        height: 15rem;
+    }
+  }
+
+H1 {
+    text-align: center;
+  }
+H2 {
+    text-align: center;
+}
